@@ -69,3 +69,14 @@ void display() {
     cout << endl;
     cout << endl;
 }
+
+int main() {
+
+    input();
+
+    bubbleSort();
+    display();
+
+    system("pause");
+    return 0;
+}
