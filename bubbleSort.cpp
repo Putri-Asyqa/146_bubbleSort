@@ -21,12 +21,12 @@ void input() {       // procedur untuk input
     cout << "=====================" << endl;
 
     for (int i = 0; i < n; i++) {      // Looping dengan i dimulai dari 0
-        cout << "Data ke-" << (i+i) << ": ";   // Output ke layar
+        cout << "Data ke-" << (i+1) << ": ";   // Output ke layar
         cin >> arr[i];                      // Input dari pengguna
     }
 }
 
-void bubbleSort() {       
+void bubbleSortArray() {       
     int pass = 1; // step 1
     
     do {
@@ -74,7 +74,7 @@ int main() {
 
     input();
 
-    bubbleSort();
+    bubbleSortArray();
     display();
 
     system("pause");
